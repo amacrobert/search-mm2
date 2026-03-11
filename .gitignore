@@ -24,3 +24,7 @@ pgdata/
 # Misc
 *.log
 tmp/
+
+# AI
+.claude/
+.mcp.json
