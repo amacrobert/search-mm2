@@ -1,0 +1,26 @@
+# Go
+/backend/server
+/backend/tmp/
+*.exe
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Environment
+.env
+
+# Docker
+pgdata/
+
+# Misc
+*.log
+tmp/

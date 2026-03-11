@@ -1,0 +1,7 @@
+ALTER TABLE searches ADD COLUMN location TEXT NOT NULL DEFAULT '';
+ALTER TABLE searches ADD COLUMN property_type TEXT NOT NULL DEFAULT '';
+ALTER TABLE searches ADD COLUMN min_price NUMERIC;
+ALTER TABLE searches ADD COLUMN max_price NUMERIC;
+ALTER TABLE searches ADD COLUMN min_size_sqft INTEGER;
+ALTER TABLE searches ADD COLUMN max_size_sqft INTEGER;
+ALTER TABLE searches DROP COLUMN url;

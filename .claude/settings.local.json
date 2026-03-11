@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /Users/andrewmacrobert/projects/search-mm2/backend && go mod tidy 2>&1)",
+      "Bash(cd /Users/andrewmacrobert/projects/search-mm2/frontend && npm install 2>&1)",
+      "Bash(cd /Users/andrewmacrobert/projects/search-mm2/backend && go build ./... 2>&1)",
+      "Bash(cd /Users/andrewmacrobert/projects/search-mm2/frontend && npx tsc --noEmit 2>&1)",
+      "Bash(cd /Users/andrewmacrobert/projects/search-mm2/backend && go build ./...)",
+      "Bash(cd /Users/andrewmacrobert/projects/search-mm2/frontend && npm run build 2>&1)",
+      "Bash(go build:*)"
+    ]
+  }
+}
